@@ -1,0 +1,14 @@
+# dvrpc_internal_harvester-js:
+#   filter: rjsmin
+#   output: ckanext-dvrpc_internal_harvester/%(version)s-dvrpc_internal_harvester.js
+#   contents:
+#     - js/dvrpc_internal_harvester.js
+#   extra:
+#     preload:
+#       - base/main
+
+# dvrpc_internal_harvester-css:
+#   filter: cssrewrite
+#   output: ckanext-dvrpc_internal_harvester/%(version)s-dvrpc_internal_harvester.css
+#   contents:
+#     - css/dvrpc_internal_harvester.css
